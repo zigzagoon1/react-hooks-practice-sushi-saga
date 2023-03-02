@@ -13,6 +13,7 @@ body {
     ". . . . ."
     ". bt bt bt ."
     ". . rm . ."
+    ". . ab . ."
     ". tb tb tb .";
 }
 
@@ -78,4 +79,16 @@ body {
   height: 428px;
   width: 700px;
   margin: auto;
+}
+#add_money {
+  width: 100px;
+  height: 25px;
+  position: relative;
+  margin: auto;
+  grid-area: ab;
+}
+
+#add_money_form {
+  text-align: center;
+  padding-top: 100px;
 }
